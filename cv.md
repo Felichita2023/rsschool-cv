@@ -23,8 +23,10 @@ function sum(a, b) {
 I don`t have commercial experience.
 
 ## Education:
-* [https://learn.javascript.ru] [Self-study book learn.javascript]
-* [https://teachmeskills.by/] [Offline courses teachmeskills]
+Self-study book learn.javascript
+* [https://learn.javascript.ru] 
+Offline courses teachmeskills
+* [https://teachmeskills.by/] 
 
 ## English level:
 * A2
