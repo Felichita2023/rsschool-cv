@@ -12,26 +12,30 @@ body {
   overflow: hidden;
 }
 
-.header__container {
+.main__container {
   display: flex;
   align-items: center;
   color: #202026;
   text-transform: uppercase;
   background-color: #202026;
   padding-top: 45px;
+  margin-bottom: 115px;
   position: relative;
 }
 
-.header__photo {
+.main__photo {
+  position: relative;
   display: flex;
   overflow: hidden;
+  left: 128px;
 }
 
-.header__image {
-  width: 50%;
+.main__image {
+  width: 273px; 
+  height: 409px;
 }
 
-.header__content {
+.main__content {
   display: flex;
   align-items: center;
 }
@@ -41,7 +45,6 @@ body {
   align-items: center;
   background-color: #202026;
   font-size: 18px;
-  padding: 20px 0 20px 0;
   border-bottom: 1px solid #f79824;
 }
 
@@ -64,20 +67,28 @@ ul {
   font-family: 'Geologica';
   color: #f79824;
   font-weight: 500;
+  line-height: 60px;
+  display: block;
+  padding: 0 20px;
   text-decoration: none;
 }
 
-.header__info {
+.main__info {
+  position: relative;
+  left: 220px;
+  bottom: 5px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-.header__title {
+.main__title {
   font-family: 'Geologica';
-  font-weight: 500;
-  font-size: 46px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  color: #202026;
 }
 
 h1 {
@@ -86,10 +97,22 @@ h1 {
   margin: 0;
 } 
 
-.header__subtitle {
+.main__subtitle {
   font-family: 'Geologica';
   font-weight: 400;
-  font-size: 22px;
+  font-size: 15px;
+  line-height: 18px;
+  margin-bottom: 10px;
+  color: #202026;
+}
+
+.main__text {
+  font-family: 'Geologica';
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  color: #202026;
+  text-transform: none;
 }
 
 h2 {
@@ -99,8 +122,63 @@ h2 {
 } 
 
 .yellow-line {
-  width: 1000px;
-  height: 150px;
+  width: 1156px;
+  height: 247px;
   background-color: #f79824;
   position: absolute;
+}
+
+.main__items {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.main__item {
+  display: flex;
+  gap: 15px;
+  align-items: center;    
+  padding-bottom: 40px;
+}
+.main__photo {
+  align-items: center;
+}
+.main__address {
+  font-family: 'Geologica';
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 30px;
+  color: #D0D0D0;
+}
+.main__number {
+  font-family: 'Geologica';
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 30px;
+  color: #D0D0D0;
+  text-decoration: none;
+}
+.main__email {
+  font-family: 'Geologica';
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 30px;
+  color: #D0D0D0;
+  text-decoration: none;
+}
+
+.skills {
+  width: 100%;
+  background: #D9D9D9;
+}
+
+.skills__items {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.skills__item {
+}
+.skills__title {
+}
+.skills__text {
 }
