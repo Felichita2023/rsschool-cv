@@ -31,66 +31,100 @@
       </nav>
     </div>
   </header>
-  <main>
-    <div class="container">
-      <section class="about">
-        <div class="main__container">
-          <div class="yellow-line"></div>
-          <div class="main__content">     
-            <div class="main__photo">
-              <img src="/images/photo.jpg" alt="photo" class="main__image">
-            </div>    
-            <div class="main__info">
-              <h1 class="main__title">FELIX GRIGORYAN</h1>
-              <h2 class="main__subtitle">JUNIOR FRONTEND DEVELOPER</h2>
-              <h2 class="main__text">I am responsible and communicative. My strong <br> point is the constant desire to learn new things. I <br> like to work in a team and master complex tasks.</h2>
+  <main>    
+      <section class="about">|
+        <div class="container">
+          <div class="main__container">
+            <div class="yellow-line"></div>
+            <div class="main__content">     
+              <div class="main__photo">
+                <img src="/images/photo.jpg" alt="photo" class="main__image">
+              </div>    
+              <div class="main__info">
+                <h1 class="main__title">FELIX GRIGORYAN</h1>
+                <h2 class="main__subtitle">JUNIOR FRONTEND DEVELOPER</h2>
+                <h2 class="main__text">I am responsible and communicative. My strong <br> point is the constant desire to learn new things. I <br> like to work in a team and master complex tasks.</h2>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="main__items">
-          <div class="main__item">
-            <img class="main__icon" src="/images/address.svg" alt="icon">
-            <div class="main__address">Minsk, Belarus</div>
-          </div>
-          <div class="main__item">
-            <img class="main__icon" src="/images/number.svg" alt="icon">
-            <a href="tel:+375 44 785-28-41" class="main__number">+375 44 785-28-41</a>
-          </div>
-          <div class="main__item">
-            <img class="main__icon" src="/images/email.svg" alt="icon">
-            <a href="mailto:feliks.grigoryan.04@gmail.com" class="main__email">feliks.grigoryan.04@gmail.com</a>
+          <div class="location__block">
+            <ul class="main__items">
+              <li>
+                <div class="main__item">
+                  <img class="main__icon" src="/images/address.svg" alt="icon">
+                  <p class="main__address">Minsk, Belarus</p>
+                </div>
+              </li>
+              <li>
+                <div class="main__item">
+                  <img class="main__icon" src="/images/number.svg" alt="icon">
+                  <a href="tel:+375 44 785-28-41" class="main__number">+375 44 785-28-41</a>
+                </div>
+              </li>
+              <li>
+                <div class="main__item">
+                  <img class="main__icon" src="/images/email.svg" alt="icon">
+                  <a href="mailto:feliks.grigoryan.04@gmail.com" class="main__email">feliks.grigoryan.04@gmail.com</a>
+                </div>
+              </li>
+            </ul>
           </div>
         </div>
       </section>
       <section class="skills">
-        <div class="skills__items">
-          <div class="skills__item">
-            <h3 class="skills__title">SKILLS</h3>
-            <ul>
-              <li>HTML</li>
-              <li>CSS/SASS</li>
-              <li>Javascript</li>
-            </ul>
+        <div class="container">
+          <div class="skills__items">
+            <div class="skills__item">
+              <h3 class="skills__title">SKILLS</h3>
+              <ul class="skills__info">
+                <li>HTML</li>
+                <li>CSS/SASS</li>
+                <li>Javascript</li>
+              </ul>
+            </div>
+            <div class="skills__item">
+              <h3 class="skills__title">CODE EXAMPLE</h3>
+              <pre class="skills__function">            
+                <code class="function">
+                  function sum(a, b) {
+                    return a + b;
+                  }
+                </code>
+              </pre>
+
+            </div>
+            <div class="skills__item">            
+              <h3 class="skills__title">LANGUAGE</h3>
+              <p class="skills__text">English Pre-Intermediate level</p>
+            </div>
+            <div class="skills__item">
+              <h3 class="skills__title">EXPERIENCE</h3>
+              <p class="skills__text">I don`t have commercial experience.</p>
+            </div>
           </div>
-          <div class="skills__item">
-            <h3 class="skills__title">CODE EXAMPLE</h3>
-            <code>
-              <span>function sum(a, b) {</span>
-              <span>return a + b;</span>
-              <span>}</span>
-            </code>
-          </div>
-          <div class="skills__item">            
-            <h3 class="skills__title">LANGUAGE</h3>
-            <p class="skills__text">English Pre-Intermediate level</p>
-          </div>
-          <div class="skills__item">
-            <h3 class="skills__title">EXPERIENCE</h3>
-            <p class="skills__text">I don`t have commercial experience.</p>
-          </div>
-        </div>
+        </div>  
       </section>
     </div>
   </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__items">
+        <div class="footer__item">
+          <a class="footer__rs" href="https://rs.school/js/">
+            <img class="rs-img" src="/images/rs.png" alt="img">
+          </a>
+        </div>
+        <div class="footer__item">
+          <p class="footer__year">2023</p>
+        </div>
+        <div class="footer__item">
+          <a class="footer__git" href="https://github.com/Felichita2023">
+            <img class="footer-img" src="/images/git-footer.png" alt="img">
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
+
