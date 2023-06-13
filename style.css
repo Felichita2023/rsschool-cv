@@ -128,54 +128,58 @@ h2 {
   position: absolute;
 }
 
-.main__items {
-  display: flex;
-  justify-content: space-between;
-  text-align: center;
-}
 .main__item {
   display: flex;
   gap: 15px;
   align-items: center;    
-  padding-bottom: 40px;
+  padding-bottom: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 22em;
 }
+
+.main__icon {
+  width: 25px;
+  height: 25px;
+}
+
 .main__photo {
   align-items: center;
 }
 .main__address {
   font-family: 'Geologica';
   font-weight: 400;
-  font-size: 17px;
+  font-size: 20px;
   line-height: 30px;
-  color: #D0D0D0;
+  color: #000;
 }
 .main__number {
   font-family: 'Geologica';
   font-weight: 400;
-  font-size: 17px;
+  font-size: 20px;
   line-height: 30px;
-  color: #D0D0D0;
+  color: #000;
   text-decoration: none;
 }
 .main__email {
   font-family: 'Geologica';
   font-weight: 400;
-  font-size: 17px;
+  font-size: 20px;
   line-height: 30px;
-  color: #D0D0D0;
+  color: #000;
   text-decoration: none;
 }
 
 .skills {
-  width: 100%;
   padding-top: 122px;
   padding-bottom: 122px;
   background: #D9D9D9;
+  min-width: 1000px;
 }
 
 .skills__items {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 2fr);
   grid-row-gap: 129px;
 }
 
@@ -218,6 +222,18 @@ h2 {
   width: 406px;
   display: flex;
   color: #D0D0D0;
+}
+
+.skills__links {
+  text-align: center;
+}
+.link {
+  text-decoration: none;
+  font-family: 'Geologica';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
 }
 
 .footer__items {
