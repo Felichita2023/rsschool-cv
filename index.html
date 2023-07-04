@@ -19,7 +19,7 @@
             <a href="#about" class="header-menu__link">ABOUT</a>
           </li>
           <li class="header-menu__item">
-            <a href="#code" class="header-menu__link">CODE</a>
+            <a href="#code" class="header-menu__link">CODE EXAMPLES</a>
           </li>
           <li class="header-menu__item">
             <a href="#skills" class="header-menu__link">SKILLS</a>
@@ -29,20 +29,115 @@
           </li>
         </ul>
       </nav>
-      <div class="header__container">
-        <div class="yellow-line"></div>
-
-        <div class="header__content">     
-          <div class="header__photo">
-            <img src="/images/photo.jpg" alt="photo" class="header__image">
-          </div>    
-          <div class="header__info">
-            <h1 class="header__title">FELIX GRIGORYAN</h1>
-            <h2 class="header__subtitle">JUNIOR FRONT-END DEVELOPER</h2>
+    </div>
+  </header>
+  <main>    
+      <section class="about" id="about">
+        <div class="container">
+          <div class="main__container">
+            <div class="yellow-line"></div>
+            <div class="main__content">     
+              <div class="main__photo">
+                <img src="./images/photo.jpg" alt="photo" class="main__image">
+              </div>    
+              <div class="main__info">
+                <h1 class="main__title">FELIX GRIGORYAN</h1>
+                <h2 class="main__subtitle">JUNIOR FRONTEND DEVELOPER</h2>
+                <h2 class="main__text">I am responsible and communicative. My strong <br> point is the constant desire to learn new things. I <br> like to work in a team and master complex tasks.</h2>
+              </div>
+            </div>
           </div>
+        </div>
+      </section>
+      <section class="skills" id="skills">
+        <div class="container">
+          <div class="skills__items">
+            <div class="skills__item">
+              <h2 class="skills__title">SKILLS</h2>
+              <ul class="skills__info">
+                <li>HTML</li>
+                <li>CSS/SASS</li>
+                <li>Javascript</li>
+              </ul>
+            </div>
+            <div class="skills__item" id="code">
+              <h2 class="skills__title">CODE EXAMPLE</h2>
+              <pre class="skills__function">            
+                <code class="function">
+                  function sum(a, b) {
+                    return a + b;
+                  }
+                </code>
+              </pre>
+            </div>
+            <div class="skills__item">            
+              <h2 class="skills__title">LANGUAGE</h2>
+              <p class="skills__text">English Pre-Intermediate level</p>
+            </div>
+            <div class="skills__item">
+              <h2 class="skills__title">EXPERIENCE</h2>
+              <p class="skills__text">I don`t have commercial experience.</p>
+            </div>
+            <div class="skills__item">            
+              <h2 class="skills__title">EDUCATION</h2>
+              <ul class="skills__links">
+                <li>
+                  <a class="link" href="https://learn.javascript.ru/">Self-study book learn.javascript</a>
+                </li>
+                <li>
+                  <a class="link" href="https://teachmeskills.by/">Offline courses teachmeskills</a>
+                </li>
+              </ul>
+            </div>
+            <div class="skills__item">        
+              <div class="location__block" id="contacts">
+                <h2 class="skills__title">LOCATION</h2>
+                <ul class="main__items">
+                  <li>
+                    <div class="main__item">
+                      <img class="main__icon" src="./images/address.svg" alt="icon">
+                      <p class="main__address">Minsk, Belarus</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="main__item">
+                      <img class="main__icon" src="./images/number.svg" alt="icon">
+                      <a href="tel:+375 44 785-28-41" class="main__number">+375 44 785-28-41</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="main__item">
+                      <img class="main__icon" src="./images/email.svg" alt="icon">
+                      <a href="mailto:feliks.grigoryan.04@gmail.com" class="main__email">feliks.grigoryan.04@gmail.com</a>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>  
+      </section>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__items">
+        <div class="footer__item">
+          <a class="footer__rs" href="https://rs.school/js/">
+            <img class="rs-img" src="./images/rs.png" alt="img">
+          </a>
+        </div>
+        <div class="footer__item">
+          <p class="footer__year">2023</p>
+        </div>
+        <div class="footer__item">
+          <a class="footer__git" href="https://github.com/Felichita2023">
+            <img class="footer-img" src="./images/git-footer.png" alt="img">
+          </a>
         </div>
       </div>
     </div>
-  </header>
+  </footer>
 </body>
 </html>
+
